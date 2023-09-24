@@ -1,13 +1,14 @@
-import Link from "next/link";
+import Layout from "./components/Layout"
 
 export default function Home() {
   return (
-    <main className={`flex min-h-screen flex-col items-center justify-between p-24 bg-primary`}>
+    <main className={` min-h-screen bg-primary`}>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-      <h1 className="text-white text-[35px] font-bold">Welcome to the Scholarship Portal</h1>
-      <Link href="/portals" className="text-white">State Portal</Link>
-      <Link href="/Login" className="text-white">Login</Link>
-      <Link href="/Register" className="text-white">Register</Link>
+      <Layout>
+        <img src="/Scholar6.jpg"  alt=""/>
+      <h1 className="text-white text-[35px] font-bold text-center">Welcome to the Scholarship Portal</h1>
+      <mesh></mesh>
+      </Layout>
     </main>
   )
 }

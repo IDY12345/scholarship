@@ -1,9 +1,13 @@
+'use client'
+import Layout from '@/app/components/Layout'
 import React from 'react'
 
-function page() {
+function InstitueLogin() {
   return (
+    <Layout>
     <div>page</div>
+    </Layout>
   )
 }
 
-export default page
+export default InstitueLogin
